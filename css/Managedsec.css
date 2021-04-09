@@ -1,0 +1,47 @@
+section{
+  font-size: 16px;
+  line-height: 2.0em;
+}
+p{
+  font-style: 'Roboto',sans-serif;
+  padding-left: 10px;
+}
+hr{
+  background-color:indigo;
+}
+.row{
+margin-top: 20px;
+margin-bottom: 20px;
+width: auto;
+
+}
+.card-title{
+  font-size: 20px;
+  text-align: center;
+  color:#01949A;
+}
+#col{
+  background-color:  #01949A;
+
+}
+
+.card{
+  background-color: #1B1717;
+  color:white;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 6px 6px 5px #aaaaaa;
+  padding:5px;
+
+}
+
+.al{
+  float:left;
+}
+.ar{
+  float:right;
+  padding-right: 10px;
+}
+//.inc{
+  height: 300px;
+}

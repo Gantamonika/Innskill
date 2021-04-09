@@ -1,0 +1,39 @@
+.footer
+{
+  background-color: #1b1717;
+  height: auto;
+  margin-top: 0px;
+  display: block;
+  color: white;
+  font-family: 'roboto' ,sans-serif;
+}
+footer ::after,::before
+{
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) .container, .container-fluid, .container-lg, .container-sm, .container-xl
+{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.container-fluid{
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div{
+  display: block;
+}
+.footer .footer-top .title
+{
+  color: #2EB6AE;
+  font-size: 16px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #666;
+}
