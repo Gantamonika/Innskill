@@ -13,7 +13,7 @@ color: inherit;
   margin: 0 auto;;
 }
 nav{
-  height: 60px;
+  height: 50px;
   background: #1B1717;
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
@@ -21,13 +21,13 @@ nav{
 {
   padding: 5px 0 0 60px;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   width: 150px;
   height: auto;
 }
 nav ul ul{
   position: absolute;
-  top: 60px;
+  top: 50px;
   display: none;
 }
 
@@ -48,7 +48,7 @@ nav ul li a{
   padding: 0 15px;
   color: white;
   text-decoration: none;
-  line-height: 60px;
+  line-height: 50px;
   font-size: 20px;
 }
 nav ul li:hover
