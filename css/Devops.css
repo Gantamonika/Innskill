@@ -13,7 +13,7 @@ margin-top: 20px;
   border-radius: 5px;
   border-style: none;
   box-shadow: 6px 6px 5px #aaaaaa;
-  //padding: 5px;
+  padding: 10px;
 }
 hr{
   background-color:indigo;
@@ -32,6 +32,7 @@ h5{
 }
 
 .card-body{
+  
   background-color: #01949A;
   color: black;
 

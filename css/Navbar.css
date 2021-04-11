@@ -10,11 +10,12 @@ text-decoration: none;
 color: inherit;
 }
 .dropdwn{
-  margin: 0 auto;;
+  margin: 0 auto;
+
 }
 nav{
   height: 50px;
-  background: #1B1717;
+  background: #24262b;
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 .logo
@@ -38,12 +39,13 @@ nav ul{
   margin-right: 30px;
 }
 nav ul li{
-  background: #1b1717;
+  background: #24262b;
   position: relative;
   list-style: none;
   display: inline-block;
 }
 nav ul li a{
+  background-color: #FDFDFD
   display: block;
   padding: 0 15px;
   color: white;
@@ -54,6 +56,7 @@ nav ul li a{
 nav ul li:hover
 {
   background-color:#E91E63;
+  text-decoration: none;
 }
 nav ul li:hover > ul{
   display: block;
@@ -61,7 +64,7 @@ nav ul li:hover > ul{
 }
 nav ul ul li{
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-  width: 400px;
+  width: 450px;
   float: none;
   display: list-item;
   position: relative;

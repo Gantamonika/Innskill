@@ -22,12 +22,14 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
-		position: fixed;
+    padding: 20px 0;
+		clear: both;
+    position: relative;
 		 margin-bottom: 0px;
 		 bottom: 0px;
 	left: 0px;
 	right: 0px;
+
 }
 .footer-col{
    width: 25%;
