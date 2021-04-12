@@ -1,10 +1,13 @@
 h1{
+
   text-align:center
+
 }
 h2{
   text-align:center
 }
 .A{
+  padding: 10px;
   background-color: #e4fbff
 }
 .card{
