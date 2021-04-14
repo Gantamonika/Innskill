@@ -417,17 +417,6 @@ line-height: 2.0em;
   border-radius: 5px;
   border-style: none;
   box-shadow: 0 10px 15px rgba(0,0,0,0.5)
-  padding: 10px;
-}
-
-.Shcard-title{
-  color:#B1B1B1;
-}
-
-.card-body{
-
-  background-color: #01949A;
-  color: black;
 
 }
 .h2{
@@ -453,30 +442,8 @@ width: auto;
 .Shcard-title{
   font-size: 20px;
   text-align: center;
-  color:#01949A;
+  color:#B08F26;
 }
-#col{
-  background-color:  #01949A;
-
-}
-
-.Shcard{
-  background-color: #1B1717;
-  color:white;
-  border-radius: 5px;
-  border-style: none;
-  box-shadow: 6px 6px 5px #aaaaaa;
-  padding:5px;
-
-}
-
-.al{
-  float:left;
-}
-.ar{
-  float:right;
-  padding-right: 10px;
-}
-//.inc{
-  height: 300px;
+#Shcar1{
+  width: 100%;
 }
