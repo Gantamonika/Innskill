@@ -137,6 +137,9 @@ nav{
   letter-spacing: 3px;
   font-size: 30px;
 }
+.removeLinkStyles{
+  text-decoration: none;
+}
 
 .nav-links
 {
