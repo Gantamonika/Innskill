@@ -324,7 +324,7 @@ nav ul ul li{
 margin-top: 20px;
 }
 .Mcard{
-    width: 100%;
+//  width: 100%;
   background-color: #1B1717;
   color:white;
   border-radius: 5px;
@@ -376,6 +376,7 @@ margin-top: 20px;
   font-size: 20px;
   font-weight: 600;
   color:#e91e63;
+  text-align: center;
 
 }
 .text{
@@ -391,6 +392,14 @@ margin-top: 20px;
 
 
 }
+.Mcard-body-MCB{
+  background-color: #1b1717;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+  width: 550px;
+  height: 280px;
+  margin-bottom: 10px;
 
 .Msection{
 font-size:16px;
