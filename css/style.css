@@ -11,11 +11,12 @@ body{
 a{
   list-style: none;
   color: white;
+  text-decoration: none;
 }
 
 .companylogo  {
   font-size: 30px;
-  color: white;
+  color: #8ef6e4;
   float: left;
   padding-right: 30px;
   font-family: sans-serif;
@@ -136,6 +137,9 @@ nav{
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 30px;
+}
+.removeLinkStyles{
+  text-decoration: none;
 }
 
 .nav-links
@@ -277,7 +281,8 @@ nav ul ul li{
 
 .companyText{
   text-align: center;
-  font-size: 2.142em;
+  color: white;
+  font-size: 32px;
 }
 .sub-headingclearfix{
   padding: 20px;
@@ -297,5 +302,6 @@ nav ul ul li{
 {
   align-items: center;
   text-align: center;
-  background-color: #f8f9fa;
+  background-color: #fbfbfb;
+
 }
