@@ -43,7 +43,7 @@ footer{
   display: -o-flex;
   display: -flex;
   flex-flow: row wrap;
-  padding-left: 50px;
+  padding: 20px 20px 5px 20px;
   color: #fff;
   background-color: #011c39;
 
@@ -67,7 +67,6 @@ h2{
   text-decoration: none;
 }
 .footerAlign{
-  position: fixed;
   left: 0;
   bottom: 0px;
   width: 100%;
@@ -278,21 +277,21 @@ nav ul ul li{
 
 .companyText{
   text-align: center;
-  font-size: 30px;
+  font-size: 2.142em;
 }
 .sub-headingclearfix{
   padding: 20px;
-    text-align: center;
+  text-align: center;
   font-family: "Lato", sans-serif;
-    font-weight: 400;
-    color: #777;
-    font-size: 15px;
-    line-height: 26px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    overflow-y: auto;
+  font-weight: 400;
+  color: #777;
+  font-size: 15px;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .sepclearfix
 {
