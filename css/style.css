@@ -15,7 +15,7 @@ a{
 
 .companylogo  {
   font-size: 30px;
-  color: white;
+  color: #8ef6e4;
   float: left;
   padding-right: 30px;
   font-family: sans-serif;
@@ -277,7 +277,8 @@ nav ul ul li{
 
 .companyText{
   text-align: center;
-  font-size: 2.142em;
+  color: white;
+  font-size: 32px;
 }
 .sub-headingclearfix{
   padding: 20px;
@@ -297,5 +298,6 @@ nav ul ul li{
 {
   align-items: center;
   text-align: center;
-  background-color: #f8f9fa;
+  background-color: #fbfbfb;
+
 }
