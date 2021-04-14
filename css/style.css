@@ -417,6 +417,7 @@ nav ul ul li{
   color: white;
   border-radius: 5px;
   padding: 30px;
+  width: 100%;
 
   height: auto;
   margin-bottom: 10px;
@@ -470,7 +471,7 @@ nav ul ul li{
   border-radius: 5px;
   padding: 30px;
   width: 550px;
-  height: 280px;
+  height: 298.67px;
   margin-bottom: 10px;
 }
 
