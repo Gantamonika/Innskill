@@ -23,18 +23,18 @@ a{
 }
 
 main{
-display: -webkit-flex;
-display: -moz-flex;
-display: -ms-flex;
-display: o-flex;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #000;
-line-height: 3.8;
-font-size: 80px;
-text-transform: uppercase;
-font-weight: bold;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  line-height: 3.8;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 footer{
   display: -webkit-flex;
@@ -118,7 +118,7 @@ h2{
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -391,7 +391,7 @@ nav ul ul li{
   margin-bottom: 0px;
 }
 /* .row{
-  margin-top: 20px;
+margin-top: 20px;
 } */
 .Mcard{
   background-color: #000;
@@ -427,7 +427,7 @@ nav ul ul li{
 }
 .clr{
   border-radius: 3px;
-//  background-color: #e91e63;
+  //  background-color: #e91e63;
   margin-left: 20px;
   margin-right: 20PX;
   margin-bottom: 20PX;
@@ -459,82 +459,82 @@ nav ul ul li{
   margin-bottom: 10px;
 }
 
-  .Msection{
-    font-size:16px;
-  }
+.Msection{
+  font-size:16px;
+}
 
 
-  #division{
-    text-align: left;
-    margin-left: 0;
-    background-color:indigo;
-  }
-  /* ul {
-  list-style: none;
+#division{
+  text-align: left;
+  margin-left: 0;
+  background-color:indigo;
+}
+/* ul {
+list-style: none;
 }
 ul li::before {
-  content: "\2022";
-  color: #b08f26;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+content: "\2022";
+color: #b08f26;
+font-weight: bold;
+display: inline-block;
+width: 1em;
+margin-left: -1em;
 
 } */
 
 
-  /* shravya-devops */
+/* shravya-devops */
 
-  .Shsection{
-    font-size:16px;
-    line-height: 2.0em;
+.Shsection{
+  font-size:16px;
+  line-height: 2.0em;
 
-  }
-
-
-  .Shcard{
-    background-color: #000;
-    color:white;
-    border-radius: 5px;
-    border-style: none;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-
-  }
-  .h2{
-    text-align: center;
-  }
-  .Shlist{
-    padding-left: 20px;
-  }
+}
 
 
-  /* shravya-managedsecurity */
+.Shcard{
+  background-color: #000;
+  color:white;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
 
-  .h3{
-    font-size: 20px;
-  }
-
-  .row{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: auto;
-
-  }
-  .Shcard-title{
-    font-size: 20px;
-    text-align: center;
-    color:#B08F26;
-  }
-  #Shcar1{
-    width: 100%;
-  }
-  a{
-    text-decoration: none;
-    list-style: none;
-  }
+}
+.h2{
+  text-align: center;
+}
+.Shlist{
+  padding-left: 20px;
+}
 
 
-  /* lavanya */
+/* shravya-managedsecurity */
+
+.h3{
+  font-size: 20px;
+}
+
+.row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: auto;
+
+}
+.Shcard-title{
+  font-size: 20px;
+  text-align: center;
+  color:#B08F26;
+}
+#Shcar1{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* lavanya */
 
 
 .py-5-page-section
@@ -554,12 +554,32 @@ ul li::before {
 }
 
 .head{
-font-size: 20px;
-font-weight: 500;
-  }
+  font-size: 20px;
+  font-weight: 500;
+}
 
-  .assign
-  {
-    margin: 20px;
-  }
->>>>>>> cde9e75889afedd5dbcfeea41e4315ebe76e7206
+.assign
+{
+  margin: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #000;
+  padding: 10px;
+}
+.grid-item {
+  background-color:white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.textCenter{
+  padding: 10px;
+  text-align:center;
+  font-size: 30px;
+  color: white;
+  background-color: #000;
+
+}
