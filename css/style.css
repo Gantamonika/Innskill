@@ -396,7 +396,7 @@ margin-top: 20px;
 .Mcard{
   background-color: #000;
   color:white;
-  border-radius: 3px;
+  border-radius: 5px;
   border-style: none;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
 }
@@ -405,6 +405,7 @@ margin-top: 20px;
   color: white;
   padding: 30px;
   margin-bottom: 10px;
+  border-radius: 5px;
 
 
 }
@@ -413,7 +414,7 @@ margin-top: 20px;
   color: white;
   border-radius: 3px;
   padding: 30px;
-
+border-radius: 5px;
   margin-bottom: 10px;
 
 
@@ -426,8 +427,13 @@ margin-top: 20px;
 
 }
 .clr{
+<<<<<<< HEAD
+  border-radius: 5px;
+//  background-color: #e91e63;
+=======
   border-radius: 3px;
   //  background-color: #e91e63;
+>>>>>>> cbc1b622db2a8613e2fd2b1b326a373521ee28c4
   margin-left: 20px;
   margin-right: 20PX;
   margin-bottom: 20PX;
@@ -452,7 +458,7 @@ margin-top: 20px;
 .Mcard-body-MCB{
   background-color: #000;
   color: white;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 30px;
   width: 550px;
   height: 332px;
@@ -519,6 +525,11 @@ margin-left: -1em;
   margin-bottom: 20px;
   width: auto;
 
+  a{
+    text-decoration: none;
+    list-style: none;
+  }
+=======
 }
 .Shcard-title{
   font-size: 20px;
