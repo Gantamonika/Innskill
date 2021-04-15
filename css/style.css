@@ -325,7 +325,6 @@ nav ul li a{
 nav ul li:hover
 {
   color: white;
-  background-color: #b08f26;
 }
 nav ul li:hover > ul{
   color: #b1b1b1;
@@ -391,23 +390,20 @@ nav ul ul li{
   margin-block-end: 0.83em;
   margin-bottom: 0px;
 }
-.row{
+/* .row{
   margin-top: 20px;
-}
+} */
 .Mcard{
   background-color: #1B1717;
   color:white;
-  border-radius: 5px;
+  border-radius: 3px;
   border-style: none;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
 }
 .Mcard-body{
   background-color: #1b1717;
   color: white;
-  border-radius: 5px;
   padding: 30px;
-  width: 550px;
-  height: 332px;
   margin-bottom: 10px;
 
 
@@ -415,37 +411,36 @@ nav ul ul li{
 .Mcard-body1{
   background-color: #1b1717;
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 30px;
 
-  height: auto;
   margin-bottom: 10px;
 
 
 }
-.card-title{
+.Mcard-title{
   font-size: 20px;
-  font-weight: 600;
-  color:#B1B1B1;
+  font-weight: 400;
+  color:#b08f26;
   text-align:center;
 
 }
 .clr{
-  border-radius: 5px;
-  background-color: #e91e63;
+  border-radius: 3px;
+//  background-color: #e91e63;
   margin-left: 20px;
   margin-right: 20PX;
   margin-bottom: 20PX;
 
 }
-.card-text{
+.Mcard-text{
   margin-left: 15px;
   margin-right: 15px;
 }
 .title{
   font-size: 20px;
-  font-weight: 600;
-  color:#e91e63;
+  font-weight: 400;
+  color:#B08F26;
   text-align: center;
 
 }
@@ -453,21 +448,11 @@ nav ul ul li{
   margin-left: 15px;
   margin-right: 15px;
 }
-.ct{
-  //    color:#e91e63;
-  //color:#997b00;
-  color:#b08f26;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
 
-
-
-}
 .Mcard-body-MCB{
-  background-color: #1b1717;
+  background-color: #000;
   color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 30px;
   width: 550px;
   height: 332px;
@@ -484,6 +469,18 @@ nav ul ul li{
     margin-left: 0;
     background-color:indigo;
   }
+  /* ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #b08f26;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+
+} */
 
 
   /* shravya-devops */
@@ -531,6 +528,7 @@ nav ul ul li{
   #Shcar1{
     width: 100%;
   }
+<<<<<<< HEAD
   /* alekhya */
 
 .Alpartner{
@@ -549,3 +547,40 @@ nav ul ul li{
     margin-right: auto;
     margin-left: auto;
   }*/
+=======
+  a{
+    text-decoration: none;
+    list-style: none;
+  }
+
+
+  /* lavanya */
+
+
+.py-5-page-section
+{
+  margin:20px;
+}
+
+.ct{
+  color:#b08f26;
+}
+
+
+.contentSecurity
+{
+  padding: 40px;
+  line-height: 30px;
+}
+
+.head{
+font-size: 20px;
+font-weight: 500;
+  }
+
+  .assign
+  {
+    margin: 20px;
+  }
+>>>>>>> cde9e75889afedd5dbcfeea41e4315ebe76e7206
+>>>>>>> 91b659e339057c2458e098d7ca2afffb69b98621

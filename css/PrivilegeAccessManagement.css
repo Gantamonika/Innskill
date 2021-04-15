@@ -1,5 +1,10 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
 
-.top-container{
+body{
   font-family: 'Roboto',sans-serif;;
   margin: 0px;
   display: flex;
@@ -7,9 +12,12 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
+
+
 }
 
-.G-container
+.container
 {
 
   width: 150vw;
@@ -20,9 +28,9 @@
   z-index:0;
   box-sizing:border-box;
 }
-.G-box{
-  background-color:#1B1717;
-  color:#f9fcfb;
+.box{
+    background-color:#1B1717;
+    color:#f9fcfb;
   position: relative;
   width: 28vw;
   height:35vw;
@@ -36,7 +44,7 @@
   box-shadow: 6px 6px 5px #aaaaaa;;
 
 }
-.G-container.box p{
+.container.box p{
   margin: 0;
   padding: 10px;
   font-size:16px;
