@@ -519,6 +519,11 @@ margin-left: -1em;
   margin-bottom: 20px;
   width: auto;
 
+  a{
+    text-decoration: none;
+    list-style: none;
+  }
+=======
 }
 .Shcard-title{
   font-size: 20px;
