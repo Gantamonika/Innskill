@@ -396,7 +396,7 @@ nav ul ul li{
 .Mcard{
   background-color: #1B1717;
   color:white;
-  border-radius: 3px;
+  border-radius: 5px;
   border-style: none;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
 }
@@ -405,6 +405,7 @@ nav ul ul li{
   color: white;
   padding: 30px;
   margin-bottom: 10px;
+  border-radius: 5px;
 
 
 }
@@ -413,7 +414,7 @@ nav ul ul li{
   color: white;
   border-radius: 3px;
   padding: 30px;
-
+border-radius: 5px;
   margin-bottom: 10px;
 
 
@@ -426,7 +427,7 @@ nav ul ul li{
 
 }
 .clr{
-  border-radius: 3px;
+  border-radius: 5px;
 //  background-color: #e91e63;
   margin-left: 20px;
   margin-right: 20PX;
@@ -452,7 +453,7 @@ nav ul ul li{
 .Mcard-body-MCB{
   background-color: #1b1717;
   color: white;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 30px;
   width: 550px;
   height: 332px;
