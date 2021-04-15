@@ -537,3 +537,21 @@ ul li::before {
 {
   margin:20px;
 }
+
+
+
+.contentSecurity
+{
+  padding: 40px;
+  line-height: 30px;
+}
+
+.head{
+font-size: 20px;
+font-weight: 500;
+  }
+
+  .assign
+  {
+    margin: 20px;
+  }
