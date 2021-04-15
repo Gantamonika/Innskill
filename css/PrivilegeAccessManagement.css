@@ -1,10 +1,5 @@
-*{
-  margin: 0px;
-  padding:0px;
-  box-sizing: border-box;
-}
 
-body{
+.top-container{
   font-family: 'Roboto',sans-serif;;
   margin: 0px;
   display: flex;
@@ -12,12 +7,9 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
-
-
 }
 
-.container
+.G-container
 {
 
   width: 150vw;
@@ -28,9 +20,9 @@ body{
   z-index:0;
   box-sizing:border-box;
 }
-.box{
-    background-color:#1B1717;
-    color:#f9fcfb;
+.G-box{
+  background-color:#1B1717;
+  color:#f9fcfb;
   position: relative;
   width: 28vw;
   height:35vw;
@@ -44,7 +36,7 @@ body{
   box-shadow: 6px 6px 5px #aaaaaa;;
 
 }
-.container.box p{
+.G-container.box p{
   margin: 0;
   padding: 10px;
   font-size:16px;
