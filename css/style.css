@@ -369,13 +369,15 @@ nav ul ul li{
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   overflow-y: auto;
+  margin: 0;
+
+
 }
 .sepclearfix
 {
   align-items: center;
   text-align: center;
   background-color: #000;
-
 }
 
 /* monika */
