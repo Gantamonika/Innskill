@@ -519,36 +519,6 @@ margin-left: -1em;
   margin-bottom: 20px;
   width: auto;
 
-<<<<<<< HEAD
-  }
-  .Shcard-title{
-    font-size: 20px;
-    text-align: center;
-    color:#B08F26;
-  }
-  #Shcar1{
-    width: 100%;
-  }
-<<<<<<< HEAD
-  /* alekhya */
-
-.Alpartner{
-  background-color: #FBFBFB;
-}
-.Alcard{
-  border:none;
-}
-
-#Alr{
-  padding-left: 50px;
-}
-  /*.container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }*/
-=======
   a{
     text-decoration: none;
     list-style: none;
@@ -567,7 +537,6 @@ a{
   text-decoration: none;
   list-style: none;
 }
->>>>>>> 4f0a1726273c555af88287070b68dafee7666327
 
 
 /* lavanya */
@@ -594,14 +563,6 @@ a{
   font-weight: 500;
 }
 
-<<<<<<< HEAD
-  .assign
-  {
-    margin: 20px;
-  }
->>>>>>> cde9e75889afedd5dbcfeea41e4315ebe76e7206
->>>>>>> 91b659e339057c2458e098d7ca2afffb69b98621
-=======
 .assign
 {
   margin: 20px;
@@ -627,4 +588,3 @@ a{
   background-color: #000;
 
 }
->>>>>>> 4f0a1726273c555af88287070b68dafee7666327
