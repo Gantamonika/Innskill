@@ -1,10 +1,5 @@
-*{
-  margin: 0px;
-  padding:0px;
-  box-sizing: border-box;
-}
 
-body{
+.top-container{
   font-family: 'Roboto',sans-serif;;
   margin: 0px;
   display: flex;
@@ -12,36 +7,29 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
-
-
 }
-.title{
+.G-title{
   background-color: #4b778d;
 }
 
-.img{
-  margin:0px 0px 10px 0px;
-}
-
-.container
+.G-container
 {
-  margin-top: 10px;
+
   width: 100vw;
-  min-height: 40px;
+  min-height: 50px;
   display: flex;
   flex-wrap:wrap;
   justify-content:space-between;
   z-index:0;
   box-sizing:border-box;
 }
-.box{
-    background-color:#1B1717;
-    color:#f9fcfb;
+.G-box{
+  background-color:#1B1717;
+  color:#f9fcfb;
   position: relative;
-  width: 28vw;
+  width: 33vw;
   border-radius: 2.5px;
-  height:20vw;
+  height:42vw;
   min-height:320px;
   overflow:hidden;
   transition: all 0.5s ease-in;
@@ -50,7 +38,7 @@ body{
   padding: 30px;
   box-shadow: 6px 6px 5px #aaaaaa;
 }
-.container.box p{
+.G-container.box p{
   margin: 0;
   padding: 10px;
   font-size:16px;
