@@ -1,33 +1,50 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
 
-.top-container{
+body{
   font-family: 'Roboto',sans-serif;;
   margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom:10px;
-}
-.G-title{
+  min-height: 100vh;
 
-  background-color:#b08f26;
+
+
 }
-.G-container
+.title{
+  background-color: #81b214;
+}
+.container
 {
+<<<<<<< HEAD
   width: 100%;
   min-height: 50px;
+=======
+ margin-top:10px;
+  width: 150vw;
+  min-height: 40px;
+>>>>>>> 91b659e339057c2458e098d7ca2afffb69b98621
   display: flex;
   flex-wrap:wrap;
   justify-content:space-between;
-  z-index:2;
+  z-index:0;
   box-sizing:border-box;
-  margin-bottom:10px;
 }
+<<<<<<< HEAD
 .G-box{
+=======
+.box{
+>>>>>>> 91b659e339057c2458e098d7ca2afffb69b98621
   border-radius: 2.5px;
-  background-color:#1B1717;
-  color:#f9fcfb;
+    background-color:#1B1717;
+    color:#f9fcfb;
   position: relative;
+<<<<<<< HEAD
   width: 40vw;
   height:40vw;
   min-height:320px;
@@ -46,6 +63,9 @@
   color:#f9fcfb;
   position: relative;
   width: 95vw;
+=======
+  width: 28vw;
+>>>>>>> 91b659e339057c2458e098d7ca2afffb69b98621
   height:35vw;
   min-height:320px;
   overflow:hidden;
@@ -53,10 +73,9 @@
   z-index:2;
   box-sizing: border-box;
   padding: 30px;
-  box-shadow: 0px 0px 10px #6e7582;
+  box-shadow: 6px 6px 5px #aaaaaa;
 }
-
-.G-container.box p{
+.container.box p{
   margin: 0;
   padding: 10px;
   font-size:16px;
