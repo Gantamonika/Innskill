@@ -528,6 +528,10 @@ ul li::before {
   #Shcar1{
     width: 100%;
   }
+  a{
+    text-decoration: none;
+    list-style: none;
+  }
 
 
   /* lavanya */
@@ -537,3 +541,25 @@ ul li::before {
 {
   margin:20px;
 }
+
+.ct{
+  color:#b08f26;
+}
+
+
+.contentSecurity
+{
+  padding: 40px;
+  line-height: 30px;
+}
+
+.head{
+font-size: 20px;
+font-weight: 500;
+  }
+
+  .assign
+  {
+    margin: 20px;
+  }
+>>>>>>> cde9e75889afedd5dbcfeea41e4315ebe76e7206
