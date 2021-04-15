@@ -20,7 +20,7 @@ body{
 .container
 {
 
-  width: 150vw;
+  width: 85vw;
   min-height: 40px;
   display: flex;
   flex-wrap:wrap;
@@ -33,7 +33,7 @@ body{
     color:#f9fcfb;
   position: relative;
   width: 28vw;
-  height:35vw;
+  height:40vw;
   min-height:320px;
   overflow:hidden;
   border-radius: 2.5px;
