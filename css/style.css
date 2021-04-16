@@ -13,14 +13,14 @@ a{
   text-decoration: none;
 }
 
-.companylogo  {
-  font-size: 30px;
-  color: #8ef6e4;
-  float: left;
-  padding-right: 30px;
-  font-family: sans-serif;
+/* .companylogo  {
+font-size: 30px;
+color: #8ef6e4;
+float: left;
+padding-right: 30px;
+font-family: sans-serif;
 
-}
+} */
 
 main{
   display: -webkit-flex;
@@ -187,31 +187,17 @@ nav{
   font-family: 'poppins', sans-serif;
 }
 .logo{
-  color: white;
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 30px;
 }
-.removeLinkStyles{
-  text-decoration: none;
-}
+
 .nav-links
 {
   display: flex;
   justify-content: space-around;
-  width: 55%;
+  width: 50%;
 }
-.nav-links hover{
-  background-color: white;
-}
-.nav-links a{
-  color: #b1b1b1;
-  font-size: 16px;
-  text-decoration: none;
-}
-.nav-links li{
-  list-style: none;
-}
+
 .burger{
   display: none;
   cursor: pointer;
@@ -285,12 +271,6 @@ nav{
 }
 
 
-nav ul ul{
-  position: absolute;
-  top: 50px;
-  display: none;
-}
-
 nav ul{
   padding: 0;
   margin: 0;
@@ -298,9 +278,7 @@ nav ul{
   margin-right: 30px;
 }
 nav ul li{
-  position: relative;
   list-style: none;
-  display: inline-block;
 }
 .clr1{
   color:#b08f26;
@@ -314,32 +292,6 @@ nav ul li{
   margin: 0;
 
 }
-nav ul li a{
-  background-color: #000;
-  display: block;
-  padding: 0 15px;
-  color: #b1b1b1;
-  line-height: 50px;
-  font-size: 20px;
-}
-nav ul li:hover
-{
-  color: white;
-}
-nav ul li:hover > ul{
-  color: #b1b1b1;
-  background-color: #b08f26;
-  display: block;
-
-}
-nav ul ul li{
-  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-  width: 450px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
 
 /* slider */
 
@@ -421,7 +373,7 @@ margin-top: 20px;
   color: white;
   border-radius: 3px;
   padding: 30px;
-border-radius: 5px;
+  border-radius: 5px;
   margin-bottom: 10px;
 
 
@@ -434,13 +386,13 @@ border-radius: 5px;
 
 }
 .clr{
-<<<<<<< HEAD
+  <<<<<<< HEAD
   border-radius: 5px;
-//  background-color: #e91e63;
-=======
+  //  background-color: #e91e63;
+  =======
   border-radius: 3px;
   //  background-color: #e91e63;
->>>>>>> cbc1b622db2a8613e2fd2b1b326a373521ee28c4
+  >>>>>>> cbc1b622db2a8613e2fd2b1b326a373521ee28c4
   margin-left: 20px;
   margin-right: 20PX;
   margin-bottom: 20PX;
@@ -536,7 +488,7 @@ margin-left: -1em;
     text-decoration: none;
     list-style: none;
   }
-=======
+  =======
 }
 .Shcard-title{
   font-size: 20px;
@@ -602,6 +554,7 @@ a{
 
 }
 
+
 .headingImg{
   position: absolute;
   top: 20%;
@@ -616,3 +569,51 @@ a{
 .items{
   position: relative;
 }
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: #000;
+  min-width: 160px;
+  width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover
+{
+  color: #000;
+  background-color: #b08f26;
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: block;}
+
+  .dropdown:hover .dropbtn
+  {
+    background-color: #b08f26;
+    border-radius: 2px;
+    color: black;
+  }
