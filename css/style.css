@@ -601,3 +601,18 @@ a{
   background-color: #000;
 
 }
+
+.headingImg{
+  position: absolute;
+  top: 20%;
+  left:2%;
+
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'poppins', sans-serif;
+  text-align: left;
+  color:white;
+}
+.items{
+  position: relative;
+}
